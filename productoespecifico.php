@@ -90,7 +90,7 @@
 									 <?php echo $descripcion; ?> 
 									</div>
 
-							<a class="añadirCarrito" href="cestaAdmin.php?id_producto=<?php echo $row['id_producto'];?>"><img src="imagenes/1393.png" width="40" height="40" ></a>
+							<a class="añadirCarrito" href="añadirproductoapedidos.php?id_producto=<?php echo $row['id_producto'];?>"><img src="imagenes/1393.png" width="40" height="40" ></a>
 				
 							<div class= producto>
 								 <a><img src="imagenes/productos/<?php echo $imagen ?>" width="230" height="230" /></a>
