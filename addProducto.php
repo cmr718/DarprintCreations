@@ -16,7 +16,7 @@ if (!empty($_POST)){
  $precio = $_POST['precio'];
  $stock = $_POST['stock'];
 
- $foto = $_FILES['imagen'];
+ $foto = $_FILES['foto'];
  $img_nombre = $foto['name'];
  $type = $foto['type'];
  $url_temp = $foto['tmp_name'];
