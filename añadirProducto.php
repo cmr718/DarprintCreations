@@ -103,7 +103,7 @@ $(document).ready(function(){
             <?php
 
             $usuario = 'ladymisti';
-            $password = 'A6B6B800';
+            $password = 'A6B6B088';
             $servidor = 'localhost';
             $basededatos = 'darprintcreations';
 
