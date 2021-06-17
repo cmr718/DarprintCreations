@@ -10,9 +10,7 @@
         if($_SESSION['rol'] != 1){
                 header('location: iniciosesion.php');
             } else {
-            	 
-
-    }
+            	    
      
     $db_host = "localhost";
     $db_nombre = "darprintcreations";
@@ -36,5 +34,5 @@
     $stock = "UPDATE pedidos SET stock = '$stockTot' WHERE correo = '$corr' AND id_producto = '$idPr'";
     $res = $mysqli->query($stock);
     header('Location: realizarpago.php');
-  }
+        }
 ?>
