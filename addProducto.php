@@ -25,7 +25,7 @@ if (!empty($_POST)){
 
  if($img_nombre != '') {
 
- 	$destino = 'C:/xampp/htdocs/TW/imagenes/productos/';
+ 	$destino = '/imagenes/productos/';
  	$img_nombre = 'img_'.md5(date('d-m-Y H:m:s'));
  	$imgProducto = $img_nombre.'.jpg';
  	$src = $destino.$imgProducto;
@@ -55,7 +55,7 @@ if($sql) {
  	header ('location:productoCreadoCorrectamente.php'); 
  	 }
  	else{
- 		header ("location: iniciosesion.php?fallo=true"); 
+ 		header ("location: añadirProducto.php?fallo=true"); 
  		}
  	}
 }
