@@ -27,7 +27,7 @@
     $corr = $_POST['correo'];
     $cant = $_POST['cantidad'];
 
-    $stock = "SELECT stockProducto FROM pedidos WHERE correo = '$corr' AND id_producto = '$idPr' ";
+    $stock = "SELECT stock FROM pedidos WHERE correo = '$corr' AND id_producto = '$idPr' ";
     $con1 = $mysqli->query($stock);
     $row = mysqli_fetch_array($con1);
 
