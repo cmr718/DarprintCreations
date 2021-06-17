@@ -75,7 +75,7 @@
 						 ?> 
 						
 							<div class= producto>
-								<a href="productoespecifico.php?id_producto=<?php echo $row['id_producto'];?>"><img  src="imagenes/productos/<?php echo $imagen ?>" width="230" height="230" /></a>
+								<a href="productoespecifico.php?id_producto=<?php echo $row['id_producto'];?>"><img  src="imagenes/<?php echo $imagen ?>" width="230" height="230" /></a>
 								
 									<div class="titulo" >
 									   <?php echo $nombreProducto; ?>
