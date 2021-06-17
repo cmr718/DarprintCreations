@@ -40,6 +40,6 @@
             if ($resultado) {
                 header('location: Catalogo.php');
             }else{
-                header('location: Catalogo.php');
+                header('location: iniciosesion.php');
             }
         ?>
