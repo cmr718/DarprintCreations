@@ -45,7 +45,9 @@ if($sql) {
 	if($img_nombre != ''){
 		move_uploaded_file($url_temp,$src);
 		} 
-	}		
+	}else{
+	echo "TODO MAL";
+}
 	
 
  $consulta = $mysqli->query($sql);
