@@ -21,7 +21,7 @@
 			<a title="Telefono" class="telefono"><img
 					src="imagenes/telefono.png"
 					width="30" height="30" /> 667 52 28 49</a>
-			<a title="Carrito" class="carrito" href="cestaAdmin.php"><img
+			<a title="Carrito" class="carrito" href="permisosCesta.php"><img
 					src="imagenes/carrito.png"
 					alt="Carrito" width="30" height="30" /></a>
 			<a title="Usuario" class="usuario" href="permisos.php"><img
@@ -90,7 +90,7 @@
 									 <?php echo $descripcion; ?> 
 									</div>
 
-							<a class="añadirCarrito" href="permisosCesta.php?id_producto=<?php echo $row['id_producto'];?>"><img src="imagenes/1393.png" width="40" height="40" ></a>
+							<a class="añadirCarrito" href="cestaAdmin.php?id_producto=<?php echo $row['id_producto'];?>"><img src="imagenes/1393.png" width="40" height="40" ></a>
 				
 							<div class= producto>
 								 <a><img src="imagenes/productos/<?php echo $imagen ?>" width="230" height="230" /></a>
