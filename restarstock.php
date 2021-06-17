@@ -1,6 +1,18 @@
 <?php
 
   session_start();
+    
+    if(!isset($_SESSION['rol'])){
+        	header('location: iniciosesion.php');
+        }
+
+    if(isset($_SESSION['rol'])){
+        if($_SESSION['rol'] != 1){
+                header('location: iniciosesion.php');
+            } else {
+            	 
+
+    }
      
     $db_host = "localhost";
     $db_nombre = "darprintcreations";
@@ -24,5 +36,5 @@
     $stock = "UPDATE pedidos SET stockProducto = '$stockTot' WHERE correoUsuario = '$corr' AND idProducto = '$idPr'";
     $res = $mysqli->query($stock);
     header('Location: realizarpago.php');
-
+  }
 ?>
