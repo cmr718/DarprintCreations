@@ -19,6 +19,9 @@ SET time_zone = "+00:00";
 
 --
 -- Base de datos: `darprintcreations`
+
+CREATE DATABASE darprintcreations;
+USE darprintcreations;
 --
 
 -- --------------------------------------------------------
