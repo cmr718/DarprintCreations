@@ -12,7 +12,7 @@
         <a href="pagprincipal.php" class="logo"><img src="imagenes/logo.png" width="230" height="85" /></a>
         <div class="arriba">
             <a title="Telefono" class="telefono"><img src="imagenes/telefono.png" width="30" height="30" /> 667 52 28 49</a>
-            <a title="Carrito" class="carrito" href="cestaAdmin.php"><img src="imagenes/carrito.png" alt="Carrito" width="30" height="30" /></a>
+            <a title="Carrito" class="carrito" href="permisosCesta.php"><img src="imagenes/carrito.png" alt="Carrito" width="30" height="30" /></a>
             <a title="Usuario" class="usuario" href="permisos.php"><img src="imagenes/usuario.png" alt="Usuario" width="30" height="30" /></a>
         </div>
         <nav class="navigation">
