@@ -1,0 +1,180 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color:white;
+    line-height: 1.4em;
+}
+
+.container{
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+    display: flex;
+    text-align: center;
+}
+
+.container a{
+    display: flex;
+    font-size: 130%;
+}
+
+.imagen{
+    text-align: center;
+    width: auto;
+    height: 200px;
+    overflow: hidden;
+    margin: 0px;
+    position: relative;
+
+}
+
+.header{ 
+    background-color: white;
+    color: black;
+    padding: 1rem;
+}
+
+ .header a{
+    margin: 0em .5em .5em 6em;
+ }
+
+ .logo-nav-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arriba{
+    float: right;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5em .5em .5em .5em;
+}
+
+.arriba a{
+    text-align: right;
+    margin: 1.5em 3em .5em 0.5em;
+}
+
+.navigation ul{
+    font-size: 110%;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0em .5em 2em 1em;
+}
+
+.navigation ul li {
+
+    display: inline-block;
+    height: 3rem;
+	width: 170rem;
+}
+
+.navigation ul li a{
+    text-align: center;
+    display: block;
+    transition: all 0.2s;
+    color: black;
+    text-decoration:none;
+    margin: .5em .5em .5em 1em;
+    line-height: 3rem;
+
+}
+ 
+.navigation ul li :hover{
+    background-color: #ABCDC0;
+}
+
+.piedepagina {
+    margin: 1em .5em .5em 1em;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.siguenos{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacta{
+    flex-direction: column;
+    display: flex;
+}
+
+.encuentra{
+    flex-direction: column;
+    display: flex;
+}
+
+.social{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin: -1em 0em 0em 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.social a{
+    width: 100%;
+    height: auto;
+}
+
+.social img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container{
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container a{
+    font-size: 130%;
+}
+
+.barra{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    position: relative;
+    }
+                  
+   .barra li{
+    list-style-type:none;
+    position:relative;
+    width:120px;
+    }
+                
+   .barra li a{
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 10px;
+    width:120px;
+    height:30px;
+    border:1px solid #ABCDC0;
+    color:#fff;
+    background-color:#ABCDC0;
+    position: relative;
+    }
+            
+   .barra li a:hover{
+    color:#ABCDC0;
+    background-color:#fff;
+    position: relative;
+                
+    }
+    
+   .barra li ul{
+        display:none;
+        position:absolute;
+        top:0px;
+        left:120px;
+    }
+            
+    .barra li:hover ul{display:block;}

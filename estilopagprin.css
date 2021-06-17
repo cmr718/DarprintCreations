@@ -1,0 +1,255 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color:white;
+    line-height: 1.4em;
+    
+}
+
+.container{
+    padding-top: 5rem;
+    padding-left: 2rem;
+    display: flex;
+    text-align: center;
+}
+
+.container a{
+    display: flex;
+    font-size: 130%;
+}
+
+.imagen{
+    text-align: center;
+    width: auto;
+    height: 200px;
+    overflow: hidden;
+    margin: 0px;
+    position: relative;
+
+}
+
+.box{
+    position:absolute;
+    left: -50%;
+    right: -50%;
+    top: -50%;
+    bottom: -50%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.header{ 
+    color: black;
+    padding: 1rem;
+}
+
+ .header a{
+    margin: 0em .5em .5em 6em;
+ }
+
+.logo-nav-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arriba{
+    float: right;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5em .5em .5em .5em;
+}
+
+.arriba a{
+    text-align: right;
+    margin: 1.5em 3em .5em 0.5em;
+}
+
+.navigation ul{
+    font-size: 110%;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    /*margin: 0em .5em .5em 1em;*/
+}
+
+.navigation ul li {
+
+    display: inline-block;
+    height: 3rem;
+	width: 170rem;
+}
+
+.navigation ul li a{
+    text-align: center;
+    display: block;
+    transition: all 0.2s;
+    color: black;
+    text-decoration:none;
+    margin: .5em .5em .5em 1em;
+    line-height: 3rem;
+
+}
+ 
+.navigation ul li :hover{
+    background-color: #ABCDC0;
+}
+
+
+.caja1 {
+
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 250px;
+    margin-top: 100px;
+    box-shadow: 8px 5px 5px grey;
+
+
+
+}
+
+.caja2 {
+    
+    width: 300px;
+    height: 300px;
+    margin-left: 250px;
+    display: inline-block;
+    box-shadow: 8px 5px 5px grey;
+
+}
+
+.caja3 {
+    
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    float: right;
+    margin-top: 100px;
+    margin-right: 250px;
+    box-shadow: 8px 5px 5px grey;
+
+}
+
+.cajaTextos {
+    
+    background: red;
+    height: 50px;
+}
+
+.caja2_texto {
+    margin-left: 60px;
+    height: 50px;
+    width: 200px;
+}
+
+.caja1_texto {
+    margin-left: 110px;
+    height: 50px;
+    width: 200px;
+
+}
+
+.caja3_texto {
+    margin-left: 130px;
+    height: 50px;
+    width: 200px;
+}
+
+
+.piedepagina {
+    line-height: 1.4em;
+    margin: 1em .5em 0em 1em;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.siguenos{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacta{
+    flex-direction: column;
+    display: flex;
+}
+
+.encuentra{
+    flex-direction: column;
+    display: flex;
+}
+
+.sliders {
+
+  margin: auto;
+  background-color: white;
+  width: 800px;
+  padding: 30px;
+
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+ul.slider{
+  position: relative;
+  width: 700px;
+  height: 400px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+
+}
+
+ul.slider li img{
+  width: 200%;
+  padding-left: 200px;
+  height: 400px;
+  object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu{
+  padding-top: 400px;
+  padding-left: 150px;
+  text-align: center;
+  margin: 20px;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+
