@@ -23,17 +23,17 @@
         
     include_once ('database.php');
 
-    $idPr = $_POST['idProducto'];
-    $corr = $_POST['correoUsuario'];
+    $idPr = $_POST['id_producto'];
+    $corr = $_POST['correo'];
     $cant = $_POST['cantidad'];
 
-    $stock = "SELECT stockProducto FROM pedidos WHERE correoUsuario = '$corr' AND idProducto = '$idPr' ";
+    $stock = "SELECT stockProducto FROM pedidos WHERE correo = '$corr' AND id_producto = '$idPr' ";
     $con1 = $mysqli->query($stock);
     $row = mysqli_fetch_array($con1);
 
     $stockTot =$row[0] - $cant;
     print_r($stockTot);
-    $stock = "UPDATE pedidos SET stockProducto = '$stockTot' WHERE correoUsuario = '$corr' AND idProducto = '$idPr'";
+    $stock = "UPDATE pedidos SET stock = '$stockTot' WHERE correo = '$corr' AND id_producto = '$idPr'";
     $res = $mysqli->query($stock);
     header('Location: realizarpago.php');
   }
