@@ -25,7 +25,7 @@ if (!empty($_POST)){
 
  if($img_nombre != '') {
 
- 	$destino = 'imagenes/productos/';
+ 	$destino = '/var/www/html/DarprintCreations/imagenes/productos/';
  	$img_nombre = 'img_'.md5(date('d-m-Y H:m:s'));
  	$imgProducto = $img_nombre.'.jpg';
  	$src = $destino.$imgProducto;
