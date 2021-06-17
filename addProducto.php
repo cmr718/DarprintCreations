@@ -41,11 +41,10 @@ $mysqli = mysqli_connect($servidor, $usuario, $password, $basededatos);
 
 $sql = "INSERT INTO productos ( nombreProducto , id_categoria , descripcion, precio, stock, imagen) VALUES('".$nombreProducto."', '".$categoria."', '".$descripcion."', '".$precio."', '".$stock."', '".$imgProducto."')";
 
-if($sql) {
-	if($img_nombre != ''){
-		move_uploaded_file($imgProducto, $src);
-		} 
-	}
+
+move_uploaded_file($imgProducto, $src);
+		
+	
 
  $consulta = $mysqli->query($sql);
 
