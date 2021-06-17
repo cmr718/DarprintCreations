@@ -14,13 +14,13 @@
                 height="85" /></a>
         <div class="arriba">
             <a title="Telefono" class="telefono"><img
-                    src="http://localhost/TW/imagenes/telefono.png"
+                    src="DarprintCreations/imagenes/telefono.png"
                     width="30" height="30" /> 667 52 28 49</a>
             <a title="Carrito" class="carrito" href="cestaAdmin.php"><img
-                    src="http://localhost/TW/imagenes/carrito.png"
+                    src="DarprintCreations/imagenes/carrito.png"
                     alt="Carrito" width="30" height="30" /></a>
             <a title="Usuario" class="usuario" href="permisos.php"><img
-                    src="http://localhost/TW/imagenes/usuario.png"
+                    src="DarprintCreations/imagenes/usuario.png"
                     alt="Usuario" width="30" height="30" /></a>
         </div>
         <nav class="navigation">
