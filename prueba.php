@@ -1,6 +1,6 @@
 <?php
 function db_query($query) {
-    $connection = mysqli_connect("localhost","root","","darprintcreations");
+    $connection = mysqli_connect("localhost","ladymisti","A6B6B088","darprintcreations");
     $result = mysqli_query($connection,$query);
 
     return $result;

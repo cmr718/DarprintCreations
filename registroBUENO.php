@@ -11,8 +11,8 @@
  $telefono = $_POST['telefono'];
  $rol = 2;
 
-$usuario = 'root';
-$password = '';
+$usuario = 'ladymisti';
+$password = 'A6B6B088';
 $servidor = 'localhost';
 $basededatos = 'darprintcreations';
 

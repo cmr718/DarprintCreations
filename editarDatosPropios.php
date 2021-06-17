@@ -16,8 +16,8 @@
  $telefono = $_POST['telefono'];
 
 
- $usuario = 'root';
- $contrasena = '';
+ $usuario = 'ladymisti';
+ $contrasena = 'A6B6B088';
  $servidor = 'localhost';
  $basededatos = 'darprintcreations';
 

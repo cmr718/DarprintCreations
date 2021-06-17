@@ -102,8 +102,8 @@ $(document).ready(function(){
 
             <?php
 
-            $usuario = 'root';
-            $password = '';
+            $usuario = 'ladymisti';
+            $password = 'A6B6B800';
             $servidor = 'localhost';
             $basededatos = 'darprintcreations';
 

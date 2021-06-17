@@ -88,7 +88,7 @@
 
                         $correo = $_SESSION('correo');
 
-                        $mysqli = new mysqli("localhost","root","","darprintcreations");
+                        $mysqli = new mysqli("localhost","ladymisti","A6B6B088","darprintcreations");
 
                         $resultado = $mysqli->query("SELECT id_pedido FROM usuarios WHERE correo = :correo");
 

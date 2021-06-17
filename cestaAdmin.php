@@ -49,12 +49,12 @@
 
         $db_host = "localhost";
         $db_nombre = "darprintcreations";
-        $db_usuario = "root";
-        $db_contra = "";
+        $db_usuario = "ladymisti";
+        $db_contra = "A6B6B088";
 
         $mysqli = new mysqli($db_host, $db_usuario, $db_contra, $db_nombre);
 
-        $link = new PDO('mysql:host=localhost;dbname=darprintcreations', 'root', '');
+        $link = new PDO('mysql:host=localhost;dbname=darprintcreations', 'ladymisti', 'A6B6B088');
 
         $correo = $_SESSION['correo'];
 

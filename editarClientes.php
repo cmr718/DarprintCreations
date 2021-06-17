@@ -18,8 +18,8 @@
  $rol = $_POST['rol'];
 
 
- $usuario = 'root';
- $password = '';
+ $usuario = 'ladymisti';
+ $password = 'A6B6B088';
  $servidor = 'localhost';
  $basededatos = 'darprintcreations';
 

@@ -37,15 +37,16 @@
 			</ul>
 		</nav>
 	</header>
-	
-	<div class="container">
 
-			<div class="todosProductos"> 
-   						<strong><a>REGALOS</a></strong>
-   		</div>
+	
+			<div class="container">		
+
+				<div class="todosProductos">
+				<strong><a>TODOS LOS PRODUCTOS</a></strong>
+			</div>
   
    <div class="productos">
- 
+
    <?php
 	
 		   $db_host="localhost";
@@ -59,7 +60,7 @@
 			exit();
 		   }
 		   
-		   $consulta="select * FROM productos where id_categoria =5";
+		   $consulta="select * FROM productos";
 		   $resultado=$conexion->query($consulta);
 		   
 		    if ($resultado) {
@@ -74,17 +75,14 @@
 						 ?> 
 						
 							<div class= producto>
-								<a><img src="http://localhost/TW/imagenes/productos/<?php echo $imagen ?>" width="230" height="230" /></a>
+								<a href="productoespecifico.php?id_producto=<?php echo $row['id_producto'];?>"><img  src="http://localhost/TW/imagenes/productos/<?php echo $imagen ?>" width="230" height="230" /></a>
 								
 									<div class="titulo" >
 									   <?php echo $nombreProducto; ?>
 									</div>
 									<div class="precio" >
 									 <?php echo $precio; ?> €
-									</div>
-									
-								
-							
+									</div>						
 							</div>
 						
 	<?php					
@@ -94,6 +92,7 @@
     </div>           
 		
     
+   
     <nav class="barra">
             <li><a href="ropa.php">ROPA</a>
             <li><a href="mascarillas.php">MASCARILLAS</a>
@@ -101,9 +100,7 @@
             <li><a href="gorras.php">GORRAS</a></li>
             <li><a href="regalos.php">REGALOS</a></li>
     </nav>
-
-
- </div>
+</div>
    
 	<footer class="footer">
 		<div class="piedepagina">

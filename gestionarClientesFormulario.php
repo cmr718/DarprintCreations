@@ -40,8 +40,8 @@
     
            $db_host="localhost";
            $db_nombre="darprintcreations";  
-           $db_usuario="root";
-           $db_contra="";
+           $db_usuario="ladymisti";
+           $db_contra="A6B6B088";
            
            $conexion=mysqli_connect($db_host,$db_usuario,$db_contra,$db_nombre); 
            if (mysqli_connect_errno()) {
@@ -113,8 +113,8 @@
 
             <?php
 
-            $usuario = 'root';
-            $password = '';
+            $usuario = 'ladymisti';
+            $password = 'A6B6B088';
             $servidor = 'localhost';
             $basededatos = 'darprintcreations';
 

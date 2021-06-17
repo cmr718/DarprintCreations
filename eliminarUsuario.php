@@ -2,7 +2,7 @@
 
 session_start();
 
-	$mysqli = new mysqli("localhost","root","","darprintcreations");
+	$mysqli = new mysqli("localhost","ladymisti","A6B6B088","darprintcreations");
 
  $correo = $_GET['correo'];
 
