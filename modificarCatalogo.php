@@ -10,17 +10,17 @@
 <body>
     <header class="header">
         <a href="pagprincipal.php" class="logo"><img
-                src="https://github.com/cmr718/DarprintCreations.git/imagenes/logo.png" width="230"
+                src="imagenes/logo.png" width="230"
                 height="85" /></a>
         <div class="arriba">
             <a title="Telefono" class="telefono"><img
-                    src="https://github.com/cmr718/DarprintCreations.git/imagenes/telefono.png"
+                    src="imagenes/telefono.png"
                     width="30" height="30" /> 667 52 28 49</a>
             <a title="Carrito" class="carrito" href="cestaAdmin.php"><img
-                    src="https://github.com/cmr718/DarprintCreations.git/imagenes/carrito.png"
+                    src="imagenes/carrito.png"
                     alt="Carrito" width="30" height="30" /></a>
             <a title="Usuario" class="usuario" href="permisos.php"><img
-                    src="imagenes/telefono.png"
+                    src="imagenes/usuario.png"
                     alt="Usuario" width="30" height="30" /></a>
         </div>
         <nav class="navigation">
