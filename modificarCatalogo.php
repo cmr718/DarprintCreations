@@ -20,7 +20,7 @@
                     src="https://github.com/cmr718/DarprintCreations.git/imagenes/carrito.png"
                     alt="Carrito" width="30" height="30" /></a>
             <a title="Usuario" class="usuario" href="permisos.php"><img
-                    src="http://darprintcreations.uksouth.cloudapp.azure.com/imagenes/telefono.png"
+                    src="imagenes/telefono.png"
                     alt="Usuario" width="30" height="30" /></a>
         </div>
         <nav class="navigation">
