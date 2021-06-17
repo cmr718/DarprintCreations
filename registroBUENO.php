@@ -39,7 +39,7 @@ $sql = "INSERT INTO usuario ( nombre , apellidos , dni, password, correo, locali
  print_r(!$consulta);
 
  if ($consulta){
- 	header('location: registroRealizado.php'); }
+ 	header('location: registrorealizado.php'); }
  	else{
  		header('location: registrar.php?fallo=true");');
  	}
