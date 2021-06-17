@@ -12,17 +12,17 @@
 <body>
 	<header class="header">
 		<a id="logo" title="logoEmpresa" href="pagprincipal.php" class="logo"><img
-				src="http://localhost/TW/imagenes/logo.png" width="230"
+				src="imagenes/logo.png" width="230"
 				height="85" /></a>
 		<div class="arriba">
 			<a title="Telefono" class="telefono"><img
-					src="http://localhost/TW/imagenes/telefono.png"
+					src="imagenes/telefono.png"
 					width="30" height="30" /> 667 52 28 49</a>
 			<a title="Carrito" class="carrito" href="cestaAdmin.php"><img
-					src="http://localhost/TW/imagenes/carrito.png"
+					src="imagenes/carrito.png"
 					alt="Carrito" width="30" height="30" /></a>
 			<a title="Usuario" class="usuario" href="permisos.php"><img
-					src="http://localhost/TW/imagenes/usuario.png"
+					src="imagenes/usuario.png"
 					alt="Usuario" width="30" height="30" /></a>
 		</div>
 		<nav class="navigation">
@@ -41,7 +41,7 @@
 		<div class="container">
 			<strong><a>MAS SOBRE NOSOTROS</a></strong>
 			<div class="social">
-				<a><img src="http://localhost/TW/imagenes/social.png" /></a>
+				<a><img src="imagenes/social.png" /></a>
 			</div>
 		</div>
 
@@ -57,15 +57,15 @@
 			<div class="imagenes">
 				<div class="logosSocial">
 					<a title="Instagram" class="insta"><img
-							src="http://localhost/TW/imagenes/instagram.png"></a>
+							src="imagenes/instagram.png"></a>
 				</div>
 				<div class="wha">
 					<a title="Whatsapp" class="what"><img
-							src="http://localhost/TW/imagenes/whatsapp.png"></a>
+							src="imagenes/whatsapp.png"></a>
 				</div>
 				<div class="fac">
 					<a title="Facebook" class="face"><img
-							src="http://localhost/TW/imagenes/facebook.png"></a>
+							src="imagenes/facebook.png"></a>
 				</div>
 			</div>
 			<div class="desc">
@@ -92,11 +92,11 @@
 			<div class="imagenes2">
 				<div class="logosSocial2">
 					<a title="correo" class="correo"><img
-							src="http://localhost/TW/imagenes/correo.png"></a>
+							src="imagenes/correo.png"></a>
 				</div>
 				<div class="llama">
 					<a title="Llamada" class="llamada"><img
-							src="http://localhost/TW/imagenes/telefono.png"></a>
+							src="imagenes/telefono.png"></a>
 				</div>
 			</div>
 			<div class="desc2">
@@ -117,7 +117,7 @@
 			<div class="imagenes3">
 				<div class="ubi">
 					<a title="Ubicacion" class="ubicacion"><img
-							src="http://localhost/TW/imagenes/mapa.png"></a>
+							src="imagenes/mapa.png"></a>
 				</div>
 			</div>
 			<div class="desc3">

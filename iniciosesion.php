@@ -10,17 +10,17 @@
 <body>
     <header class="header">
         <a href="pagprincipal.php" class="logo"><img
-                src="http://localhost/TW/imagenes/logo.png" width="230"
+                src="imagenes/logo.png" width="230"
                 height="85" /></a>
         <div class="arriba">
             <a title="Telefono" class="telefono"><img
-                    src="http://localhost/TW/imagenes/telefono.png"
+                    src="imagenes/telefono.png"
                     width="30" height="30" /> 667 52 28 49</a>
             <a title="Carrito" class="carrito" href="cestaAdmin.php"><img
-                    src="http://localhost/TW/imagenes/carrito.png"
+                    src="imagenes/carrito.png"
                     alt="Carrito" width="30" height="30" /></a>
             <a title="Usuario" class="usuario" href="permisos.php"><img
-                    src="http://localhost/TW/imagenes/usuario.png"
+                    src="imagenes/usuario.png"
                     alt="Usuario" width="30" height="30" /></a>
         </div>
         <nav class="navigation">
@@ -38,7 +38,7 @@
         <div class="container">
             <strong><a>INICIO DE SESION</a></strong>
             <div class="social">
-                <a><img src="http://localhost/TW/imagenes/inicio.png" /></a>
+                <a><img src="imagenes/inicio.png" /></a>
             </div>
         </div>
               
@@ -74,19 +74,19 @@
             <div class="siguenos">
                 <strong><a>SIGUENOS EN:</a></strong>
                 <a title="Telefono" class="telefono"><img
-                        src="http://localhost/TW/imagenes/instagram.png"
+                        src="imagenes/instagram.png"
                         width="20" height="20" /> @darprintcreations</a>
                 <a title="Telefono" class="telefono"><img
-                        src="http://localhost/TW/imagenes/facebook.png"
+                        src="imagenes/facebook.png"
                         width="20" height="20" /> Darprint Creations</a>
             </div>
             <div class="contacta">
                 <strong><a>CONTACTA CON NOSOTROS:</a></strong>
                 <a title="Telefono" class="telefono"><img
-                        src="http://localhost/TW/imagenes/whatsapp.png"
+                        src="imagenes/whatsapp.png"
                         width="20" height="20" /> 667 52 28 49</a>
                 <a title="Telefono" class="telefono"><img
-                        src="http://localhost/TW/imagenes/correo.png"
+                        src="imagenes/correo.png"
                         width="20" height="20" /> sanay_15@hotmail.com</a>
             </div>
             <div class="encuentra">

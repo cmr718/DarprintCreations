@@ -24,7 +24,7 @@
 			<a title="Carrito" class="carrito" href="cestaAdmin.php"><img
 					src="imagenes/carrito.png"
 					alt="Carrito" width="30" height="30" /></a>
-			<a title="Usuario" class="usuario" href="#"><img
+			<a title="Usuario" class="usuario" href="permisos.php"><img
 					src="imagenes/usuario.png"
 					alt="Usuario" width="30" height="30" /></a>
 		</div>
@@ -37,17 +37,16 @@
 			</ul>
 		</nav>
 	</header>
-	
-	 
 
-    <div class="container">
-       
-       <div class="todosProductos">
-				<strong><a>GORRAS</a></strong>
+	
+			<div class="container">		
+
+				<div class="todosProductos">
+				<strong><a>TODOS LOS PRODUCTOS</a></strong>
 			</div>
   
    <div class="productos">
-   
+
    <?php
 	
 		   $db_host="localhost";
@@ -61,7 +60,7 @@
 			exit();
 		   }
 		   
-		   $consulta="select * FROM productos where id_categoria =4";
+		   $consulta="select * FROM productos";
 		   $resultado=$conexion->query($consulta);
 		   
 		    if ($resultado) {
@@ -76,17 +75,14 @@
 						 ?> 
 						
 							<div class= producto>
-								<a><img src="imagenes/productos/<?php echo $imagen ?>" width="230" height="230" /></a>
+								<a href="productoespecifico.php?id_producto=<?php echo $row['id_producto'];?>"><img  src="imagenes/productos/<?php echo $imagen ?>" width="230" height="230" /></a>
 								
 									<div class="titulo" >
 									   <?php echo $nombreProducto; ?>
 									</div>
 									<div class="precio" >
 									 <?php echo $precio; ?> €
-									</div>
-									
-								
-							
+									</div>						
 							</div>
 						
 	<?php					
@@ -105,7 +101,7 @@
             <li><a href="regalos.php">REGALOS</a></li>
     </nav>
 </div>
-
+   
 	<footer class="footer">
 		<div class="piedepagina">
 			<div class="siguenos">
@@ -127,8 +123,8 @@
 						width="20" height="20" /> sanay_15@hotmail.com</a>
 			</div>
 			<div class="encuentra">
-				<strong><a>ENCUENTRANOS EN:</a></strong>
-				<a title="Telefono" class="telefono"> AVN OASIS 97, EL EJIDO (ALMERÍA)</a>
+					<strong><a>ENCUENTRANOS EN:</a></strong>
+					<a title="Telefono" class="telefono"> AVN OASIS 97, EL EJIDO (ALMERÍA)</a>
 			</div>
 		</div>
 	</footer>

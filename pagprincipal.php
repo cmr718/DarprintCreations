@@ -9,11 +9,11 @@
     </head>
     <body>
             <header class="header">
-                <a  href="pagprincipal.php" class="logo"><img src="http://localhost/TW/imagenes/logo.png"width="230" height="85"/></a>
+                <a  href="pagprincipal.php" class="logo"><img src="imagenes/logo.png"width="230" height="85"/></a>
                     <div class="arriba">
-                        <a title="Telefono" class="telefono"><img src="http://localhost/TW/imagenes/telefono.png" width="30" height="30"/> 667 52 28 49</a>
-                        <a title="Carrito" class="carrito" href="permisosCesta.php"><img src="http://localhost/TW/imagenes/carrito.png" alt="Carrito" width="30" height="30"/></a>
-                        <a title="Usuario" class="usuario"href="permisos.php"><img src="http://localhost/TW/imagenes/usuario.png" alt="Usuario" width="30" height="30"/></a>
+                        <a title="Telefono" class="telefono"><img src="imagenes/telefono.png" width="30" height="30"/> 667 52 28 49</a>
+                        <a title="Carrito" class="carrito" href="permisosCesta.php"><img src="imagenes/carrito.png" alt="Carrito" width="30" height="30"/></a>
+                        <a title="Usuario" class="usuario"href="permisos.php"><img src="imagenes/usuario.png" alt="Usuario" width="30" height="30"/></a>
 
                     </div>
                         <nav class="navigation">
@@ -33,13 +33,13 @@
   
                         <ul class="slider">
                             <li id="slide1">
-                              <img src="http://localhost/TW/imagenes/slider1.png"/>
+                              <img src="imagenes/slider1.png"/>
                             </li>
                             <li id="slide2">
-                              <img src="http://localhost/TW/imagenes/slider2.png"/>
+                              <img src="imagenes/slider2.png"/>
                             </li>
                             <li id="slide3">
-                                <img src="http://localhost/TW/imagenes/slider3.png"/>
+                                <img src="imagenes/slider3.png"/>
                             </li>
                           </ul>
                           
@@ -63,21 +63,21 @@
             </div> 
 
             <div class="caja1"> 
-                 <a title="Tazas" href="tazas.php"><img src="http://localhost/TW/imagenes/tazas.png" width="300" height="300" /></a> 
+                 <a title="Tazas" href="tazas.php"><img src="imagenes/tazas.png" width="300" height="300" /></a> 
                  <div class="caja1_texto"> 
                     <H2>TAZAS </H2>
                 </div>
             </div>
 
             <div class="caja2"> 
-                 <a title="Mascarillas" href="mascarillas.php"><img src="http://localhost/TW/imagenes/mascarillas.png" width="300" height="300" /></a>
+                 <a title="Mascarillas" href="mascarillas.php"><img src="imagenes/mascarillas.png" width="300" height="300" /></a>
                  <div class="caja2_texto"> 
                     <H2>MASCARILLAS</H2>
                 </div>
             </div>
 
             <div class="caja3"> 
-                <a title="Ropa" href="ropa.php"><img src="http://localhost/TW/imagenes/ropa.png" width="300" height="300" /></a>
+                <a title="Ropa" href="ropa.php"><img src="imagenes/ropa.png" width="300" height="300" /></a>
                 <div class="caja3_texto"> 
                     <H2>ROPA</H2>
                 </div>
@@ -92,13 +92,13 @@
             <div class="piedepagina">                                                 
                 <div class="siguenos">
                 <strong><a>SIGUENOS EN:</a></strong>
-                    <a title="Telefono" class="telefono"><img src="http://localhost/TW/imagenes/instagram.png" width="20" height="20"/> @darprintcreations</a>
-                    <a title="Telefono" class="telefono"><img src="http://localhost/TW/imagenes/facebook.png" width="20" height="20"/>  Darprint Creations</a>
+                    <a title="Telefono" class="telefono"><img src="imagenes/instagram.png" width="20" height="20"/> @darprintcreations</a>
+                    <a title="Telefono" class="telefono"><img src="imagenes/facebook.png" width="20" height="20"/>  Darprint Creations</a>
                 </div>
                 <div class="contacta">
                 <strong><a>CONTACTA CON NOSOTROS:</a></strong> 
-                    <a title="Telefono" class="telefono"><img src="http://localhost/TW/imagenes/whatsapp.png" width="20" height="20"/> 667 52 28 49</a>
-                    <a title="Telefono" class="telefono"><img src="http://localhost/TW/imagenes/correo.png" width="20" height="20"/> sanay_15@hotmail.com</a>            
+                    <a title="Telefono" class="telefono"><img src="imagenes/whatsapp.png" width="20" height="20"/> 667 52 28 49</a>
+                    <a title="Telefono" class="telefono"><img src="imagenes/correo.png" width="20" height="20"/> sanay_15@hotmail.com</a>            
                 </div> 
                 <div class="encuentra">
                     <strong><a>ENCUENTRANOS EN:</a></strong>
