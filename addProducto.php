@@ -16,7 +16,7 @@ if (!empty($_POST)){
  $precio = $_POST['precio'];
  $stock = $_POST['stock'];
 
- $foto = $_FILES['foto'];
+ $foto = $_FILES['imagen'];
  $img_nombre = $foto['name'];
  $type = $foto['type'];
  $url_temp = $foto['tmp_name'];
@@ -43,7 +43,7 @@ $sql = "INSERT INTO productos ( nombreProducto , id_categoria , descripcion, pre
 
 if($sql) {
 	if($img_nombre != ''){
-		move_uploaded_file($url_temp, $src);
+		move_uploaded_file($name_temp, $src);
 		} 
 	}		
 	
