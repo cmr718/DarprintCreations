@@ -34,13 +34,12 @@
             }
  
             $sql ="INSERT INTO pedidos (`id_producto`, `imagen`, `nombreProducto`, `cantidad`, `precio`, `precioTotalPedido`, `correo`, `stockProducto`, `total`) VALUES ('$id_producto','$imagen','$nombreProducto','1','$precio','$precio','$correo','$stockProducto','$precio')";
-            echo $sql;
 
             $resultado=$conexion->query($sql);
 
             if ($resultado) {
-                header('location: catalogo.php');
+                header('location: Catalogo.php');
             }else{
-                echo "todo mal";
+                header('location: Catalogo.php');
             }
         ?>
