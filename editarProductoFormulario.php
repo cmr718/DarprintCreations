@@ -34,8 +34,42 @@
     </header>
     <hr>
             <?php
-            $id_producto=$_GET['id_producto'];
-            ?>
+    
+           $id_producto=$_GET['id_producto'];
+    
+           $db_host="localhost";
+           $db_nombre="darprintcreations";  
+           $db_usuario="ladymisti";
+           $db_contra="A6B6B088";
+           
+           $conexion=mysqli_connect($db_host,$db_usuario,$db_contra,$db_nombre); 
+           if (mysqli_connect_errno()) {
+            printf("Falló la conexión failed: %s\n");
+            exit();
+           }
+           
+           $consulta="select * FROM productos where id_producto='$id_producto'";
+           $resultado=$conexion->query($consulta);
+           
+            if ($resultado) {
+
+                         while ( $row = $resultado->fetch_array()) {
+
+                            $nombreProducto = $row['nombreProducto'];
+                            $descripcion = $row['descripcion'];
+                            $precio = $row['precio'];
+                            $stock = $row['stock'];
+
+                        }
+            }
+                         
+                      
+        ?>
+    
+    
+    
+    
+    
     <main class="main">
         <div class="container">
             <strong><a>INTRODUZCA LOS NUEVOS DATOS DEL PRODUCTO</a></strong>
@@ -44,7 +78,7 @@
         <form action="modificarProductoCELIA.php?id_producto=<?php echo $id_producto?>" target="" method="POST" name="inicio" enctype="multipart/form-data">
 
             <label class="atributosProducto" for="nombreProducto">Nombre de producto</label> 
-            <input type="text" name="nombreProducto" id="nombreProducto" placeholder="Nombre del producto" />
+            <input type="text" name="nombreProducto" value="<?php echo $nombreProducto?>" id="nombreProducto" placeholder="Nombre del producto" />
 
             <label class="atributosProducto" for="categoria">Categoria de producto</label>
 
@@ -85,13 +119,13 @@
 
 
             <label class="atributosProducto" for="descripcion">Descripcion</label>
-            <input type="text" name="descripcion" id="descripcion" placeholder="Descripcion del producto" />
+            <input type="text" name="descripcion" value="<?php echo $descripcion?>" id="descripcion" placeholder="Descripcion del producto" />
 
             <label class="atributosProducto" for="precio">Precio</label>
-            <input type="number" name="precio" id="precio" placeholder="Precio del producto" />
+            <input type="number" name="precio" value="<?php echo $precio?>" id="precio" placeholder="Precio del producto" />
 
             <label class="atributosProducto" for="stock">Stock</label>
-            <input type="text" name="stock" id="stock" placeholder="Stock del producto disponible" />
+            <input type="text" name="stock" value="<?php echo $stock?>" id="stock" placeholder="Stock del producto disponible" />
 
                 <div class="atributosProducto" id="photo">
                      <label for="foto">Foto</label>
