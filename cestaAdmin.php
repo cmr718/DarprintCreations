@@ -66,7 +66,7 @@
 
             <table class="tabla">
                 <tr>
-                    <td> <img src= "https://localhost/TW/imagenes/productos/<?php echo $row['imagen'] ?>" width="200" height="200" /> </td>
+                    <td> <img src= "imagenes/<?php echo $row['imagen'] ?>" width="200" height="200" /> </td>
 
 
 
