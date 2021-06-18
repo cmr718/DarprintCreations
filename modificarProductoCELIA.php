@@ -46,14 +46,7 @@
  	$src = $destino.$imgProducto;
  } else { 
  
-	$sqlFoto = "SELECT imagen FROM productos WHERE '$id_producto.'"; 
-	 
-	$consultaFoto = $mysqli->query($sqlFoto);
-	 
-	$destino = 'imagenes/';
- 	$img_nombre = 'img_'.md5(date('d-m-Y H:m:s'));
- 	$imgProducto = $img_nombre.'.jpg';
- 	$src = $destino.$imgProducto;	 
+	header("location: editarProductoFormulario.php?fallo=true");
  
  }
 
