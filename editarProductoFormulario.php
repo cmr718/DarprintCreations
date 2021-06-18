@@ -144,13 +144,7 @@
                  {
                     echo "<div style='color:red'>Producto invalido </div>";
                  }
-                ?>   
-            
-                if(isset($_GET["fallo"]) && $_GET["fallo"] == 'true')
-                 {
-                    echo "<div style='color:red'>Seleccione una imagen válida </div>";
-                 }
-                ?>
+                ?>           
 
             <input type="submit"  value="Añadir producto">
         </form>
