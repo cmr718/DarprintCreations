@@ -32,9 +32,6 @@
 	<main class="main">
 		<div class="container">
 			<strong><a>MAS SOBRE NOSOTROS</a></strong>
-			<div class="social">
-				<a><img src="http://localhost/TW/imagenes/social.png" /></a>
-			</div>
 		</div>
 
 
