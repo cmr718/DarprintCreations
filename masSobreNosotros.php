@@ -34,7 +34,7 @@
 			<strong><a>MAS SOBRE NOSOTROS</a></strong>
 		</div>
 		
-		<br>
+		<br><br>
 
 		<div class="cuerpo3">
 			<div class="ubicacion">
