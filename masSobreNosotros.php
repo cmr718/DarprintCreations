@@ -40,9 +40,6 @@
 	<main class="main">
 		<div class="container">
 			<strong><a>MAS SOBRE NOSOTROS</a></strong>
-			<div class="social">
-				<a><img src="imagenes/social.png" /></a>
-			</div>
 		</div>
 
 		<div class="titulo">
