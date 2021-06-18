@@ -33,7 +33,8 @@
 		<div class="container">
 			<strong><a>MAS SOBRE NOSOTROS</a></strong>
 		</div>
-
+		
+		<br>
 
 		<div class="cuerpo3">
 			<div class="ubicacion">
