@@ -139,15 +139,12 @@
                          <div id="form_alert"></div>
                   </div>
 
-                  <!-- <?php
-                if(isset($_GET["fallo"])  == 'true')
+                  <?php
+                if(isset($_GET["fallo"]) && $_GET["fallo"] == 'true')
                  {
                     echo "<div style='color:red'>Producto invalido </div>";
                  }
-
-                 echo $id_productoMODIF;
-                 
-                ?>   -->      
+                ?>   
             
                 if(isset($_GET["fallo"]) && $_GET["fallo"] == 'true')
                  {
