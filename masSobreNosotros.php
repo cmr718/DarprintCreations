@@ -11,11 +11,11 @@
 
 <body>
 	<header class="header">
-		<a id="logo" title="logoEmpresa" href="pagprincipal.php" class="logo"><img src="http://localhost/TW/imagenes/logo.png" width="230" height="85" /></a>
+		<a id="logo" title="logoEmpresa" href="pagprincipal.php" class="logo"><img src="imagenes/logo.png" width="230" height="85" /></a>
 		<div class="arriba">
-			<a title="Telefono" class="telefono"><img src="http://localhost/TW/imagenes/telefono.png" width="30" height="30" /> 667 52 28 49</a>
-			<a title="Carrito" class="carrito" href="cestaAdmin.php"><img src="http://localhost/TW/imagenes/carrito.png" alt="Carrito" width="30" height="30" /></a>
-			<a title="Usuario" class="usuario" href="permisos.php"><img src="http://localhost/TW/imagenes/usuario.png" alt="Usuario" width="30" height="30" /></a>
+			<a title="Telefono" class="telefono"><img src="imagenes/telefono.png" width="30" height="30" /> 667 52 28 49</a>
+			<a title="Carrito" class="carrito" href="cestaAdmin.php"><img src="imagenes/carrito.png" alt="Carrito" width="30" height="30" /></a>
+			<a title="Usuario" class="usuario" href="permisos.php"><img src="imagenes/usuario.png" alt="Usuario" width="30" height="30" /></a>
 		</div>
 		<nav class="navigation">
 			<ul>
@@ -63,13 +63,13 @@
 				</a>
 				<div class="imagenes">
 					<div class="logosSocial">
-						<a title="Instagram" class="insta"><img src="http://localhost/TW/imagenes/instagram.png"></a>
+						<a title="Instagram" class="insta"><img src="imagenes/instagram.png"></a>
 					</div>
 					<div class="wha">
-						<a title="Whatsapp" class="what"><img src="http://localhost/TW/imagenes/whatsapp.png"></a>
+						<a title="Whatsapp" class="what"><img src="imagenes/whatsapp.png"></a>
 					</div>
 					<div class="fac">
-						<a title="Facebook" class="face"><img src="http://localhost/TW/imagenes/facebook.png"></a>
+						<a title="Facebook" class="face"><img src="imagenes/facebook.png"></a>
 					</div>
 				</div>
 				<div class="desc">
@@ -93,10 +93,10 @@
 					</a>
 					<div class="imagenes2">
 						<div class="logosSocial2">
-							<a title="correo" class="correo"><img src="http://localhost/TW/imagenes/correo.png"></a>
+							<a title="correo" class="correo"><img src="imagenes/correo.png"></a>
 						</div>
 						<div class="llama">
-							<a title="Llamada" class="llamada"><img src="http://localhost/TW/imagenes/telefono.png"></a>
+							<a title="Llamada" class="llamada"><img src="imagenes/telefono.png"></a>
 						</div>
 					</div>
 					<div class="desc2">
