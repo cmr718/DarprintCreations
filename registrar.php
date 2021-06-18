@@ -36,10 +36,7 @@
 
     <main class="main">
         <div class="container">
-            <strong><a>REGISTRAR SESIÓN</a></strong>
-            <div class="social">
-                <a><img src="imagenes/editar.png" /></a>
-            </div>
+            <strong><a>REGISTRARSE</a></strong>
         </div>
 
         <div class="titulo">
