@@ -17,6 +17,13 @@
  session_start();
 
  $id_producto = $_GET['id_producto'];
+		
+ $usuario = 'ladymisti';
+ $password = 'A6B6B088';
+ $servidor = 'localhost';
+ $basededatos = 'darprintcreations';
+
+ $mysqli = mysqli_connect($servidor, $usuario, $password, $basededatos);
 
  $nombreProducto = $_POST['nombreProducto'];
  $categoria = $_POST['categoria'];
@@ -33,19 +40,23 @@
 
  if($img_nombre != '') {
 
- 	$destino = 'C:/xampp/htdocs/TW/imagenes/productos/';
+ 	$destino = 'imagenes/';
  	$img_nombre = 'img_'.md5(date('d-m-Y H:m:s'));
  	$imgProducto = $img_nombre.'.jpg';
  	$src = $destino.$imgProducto;
+ } else { 
+ 
+	$sqlFoto = "SELECT imagen FROM productos WHERE '$id_producto.'"; 
+	 
+	$consultaFoto = $mysqli->query($sqlFoto);
+	 
+	$destino = 'imagenes/';
+ 	$img_nombre = 'img_'.md5(date('d-m-Y H:m:s'));
+ 	$imgProducto = $img_nombre.'.jpg';
+ 	$src = $destino.$imgProducto;	 
+ 
  }
 
-
- $usuario = 'ladymisti';
- $password = 'A6B6B088';
- $servidor = 'localhost';
- $basededatos = 'darprintcreations';
-
-$mysqli = mysqli_connect($servidor, $usuario, $password, $basededatos);
 
 $sql = "UPDATE productos SET nombreProducto = '$nombreProducto', id_categoria = '$categoria', descripcion = '$descripcion', precio = '$precio',
 stock = '$stock', imagen = '$imgProducto' WHERE id_producto = '$id_producto.'";
